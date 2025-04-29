@@ -1,0 +1,754 @@
+{
+    "configuration": {
+        "label": {
+            "companyName": "প্রতিষ্ঠানের নাম",
+            "industryName": "শিল্পখাতের নাম",
+            "organizationNumber": "সংস্থার নম্বর",
+            "country": "দেশ",
+            "otherLanguage": "অন্য ভাষা",
+            "timezone": "টাইমজোন",
+            "dateFormat": "তারিখ ফরম্যাট",
+            "weekStartDay": "সপ্তাহের শুরুর দিন",
+            "weekends": "সাপ্তাহিক ছুটির দিন",
+            "lunchBreakTime": "লাঞ্চ বিরতির সময় (মিনিট)",
+            "isRoster": "রোস্টার",
+            "email": "ইমেইল",
+            "adminEmail": "অ্যাডমিন ইমেইল",
+            "website": "ওয়েবসাইট",
+            "telephoneNumber": "টেলিফোন নম্বর",
+            "address": "ঠিকানা"
+        },
+        "placeholder": {
+            "companyName": "প্রতিষ্ঠানের নাম",
+            "industryName": "শিল্পখাতের নাম",
+            "organizationNumber": "সংস্থার নম্বর",
+            "country": "দেশ",
+            "otherLanguage": "অন্য ভাষা",
+            "timezone": "টাইমজোন",
+            "dateFormat": "তারিখ ফরম্যাট",
+            "weekStartDay": "সপ্তাহের শুরুর দিন",
+            "weekends": "সাপ্তাহিক ছুটির দিন",
+            "lunchBreakTime": "লাঞ্চ বিরতির সময় (মিনিট)",
+            "email": "ইমেইল",
+            "adminEmail": "অ্যাডমিন ইমেইল",
+            "website": "ওয়েবসাইটের ইউ.আর.এল",
+            "telephoneNumber": "টেলিফোন নম্বর"
+        },
+        "header": {
+            "details": "ডিটেইলস",
+            "basicInfo": "মৌলিক",
+            "additionalInfo": "অতিরিক্ত",
+            "contactInfo": "যোগাযোগ",
+            "show": {
+                "basicInformation": "মৌলিক তথ্য",
+                "additionalInformation": "অতিরিক্ত তথ্য",
+                "contactInformation": "যোগাযোগের তথ্য"
+            },
+            "title": {
+                "basicInformation": "সেটিংসের মৌলিক তথ্য আপডেট",
+                "additionalInformation": "সেটিংসের অতিরিক্ত তথ্য আপডেট",
+                "contactInformation": "সেটিংসের যোগাযোগের তথ্য আপডেট",
+                "tooltip": "উৎপত্তিস্থল"
+            }
+        }
+    },
+    "user": {
+        "label": {
+            "name": "নাম",
+            "email": "ইমেইল",
+            "password": "পাসওয়ার্ড",
+            "currentPassword": "বর্তমান পাসওয়ার্ড",
+            "newPassword": "নতুন পাসওয়ার্ড",
+            "confirmNewPassword": "নতুন পাসওয়ার্ডের কনফার্মেশন",
+            "resetPassword": "রিসেট পাসওয়ার্ড",
+            "deleteAccount": "অ্যাকাউন্ট মুছুন",
+            "assignRole": "অ্যাসাইন রোল",
+            "role": "রোল",
+            "status": "স্ট্যাটাস",
+            "lastLogin": "শেষ লগইন",
+            "joiningDate": "যোগদানের তারিখ"
+        },
+        "placeholder": {
+            "name": "নাম",
+            "email": "ইমেইল",
+            "currentPassword": "বর্তমান পাসওয়ার্ড",
+            "newPassword": "নতুন পাসওয়ার্ড",
+            "confirmNewPassword": "নতুন পাসওয়ার্ডের কনফার্মেশন",
+            "assignRole": "রোল",
+            "searchUsers": "ইউজারদের অনুসন্ধান"
+        },
+        "header": {
+            "add": "নতুন ইউজার",
+            "edit": "এডিট ইউজার",
+            "details": "ডিটেইলস",
+            "overview": "ওভারভিউ",
+            "security": "নিরাপত্তা",
+            "authenticationLogs": "অথেনটিকেশন লগ",
+            "activityLogs": "অ্যাক্টিভিটি লগ",
+            "show": {
+                "profile": "প্রোফাইল",
+                "upcomingMeetings": "২টি আপকামিং মিটিং",
+                "message": "বার্তা",
+                "date": "তারিখ",
+                "ipAddress": "আইপি এড্রেস",
+                "userAgent": "ইউজার এজেন্ট"
+            },
+            "title": {
+                "updateUserDetails": "ইউজারের তথ্য আপডেট",
+                "updateEmailAddress": "ইমেইল আপডেট",
+                "updatePassword": "পাসওয়ার্ড আপডেট",
+                "updateRoles": "রোল আপডেট"
+            },
+            "info": {
+                "email": {
+                    "validEmail": "অনুগ্রহ করে মনে রাখবেন যে ইমেইল ভেরিফিকেশন করার জন্য একটি ভ্যালিড ইমেইল প্রয়োজন।",
+                    "unverified": "আপনার ইমেইল ভ্যালিড হয়নি।",
+                    "verification": "ভেরিফিকেশন ইমেইল পুনরায় পাঠাতে এখানে ক্লিক করুন।",
+                    "newVerification": "আপনার ইমেইলে একটি নতুন ভেরিফিকেশন লিঙ্ক পাঠানো হয়েছে।"
+                },
+                "delete": {
+                    "downloadData": "একবার আপনার অ্যাকাউন্ট মুছে ফেলা হলে, এর সমস্ত রিসোর্স এবং ডেটা স্থায়ীভাবে মুছে যাবে। আপনার অ্যাকাউন্ট মুছে ফেলার আগে, কোনো ডেটা বা তথ্য ধরে রাখতে চাইলে তা ডাউনলোড করে রাখুন।",
+                    "passwordConfirmation": "একবার আপনার অ্যাকাউন্ট মুছে ফেলা হলে, এর সমস্ত রিসোর্স এবং ডেটা স্থায়ীভাবে মুছে যাবে। আপনি স্থায়ীভাবে আপনার অ্যাকাউন্ট নিশ্চিতভাবে মুছে ফেলতে চাইলে আগে আপনার পাসওয়ার্ড লিখুন।"
+                }
+            },
+            "profile": {
+                "edit": "আমার প্রোফাইল",
+                "update": {
+                    "profileInfo": "প্রোফাইলের তথ্য",
+                    "signInMethod": "সাইন-ইন পদ্ধতি"
+                }
+            }
+        }
+    },
+    "role": {
+        "label": {
+            "roleName": "নাম",
+            "rolePermission": "পারমিশন",
+            "administratorAccess": "অ্যাডমিনিস্ট্রেটর অ্যাক্সেস",
+            "selectAll": "সব নির্বাচন করুন"
+        },
+        "placeholder": {
+            "roleName": "রোলের নাম"
+        },
+        "header": {
+            "add": "নতুন রোল",
+            "edit": "এডিট রোল",
+            "usersAssigned": "ইউজার অ্যাসাইন"
+        }
+    },
+    "branch" : {
+        "label": {
+            "name": "নাম",
+            "branchManager": "ব্রাঞ্চ ম্যানেজার",
+            "branchCode": "ব্রাঞ্চ কোড",
+            "phoneNumber": "ফোন নম্বর",
+            "address": "ঠিকানা"
+        },
+        "placeholder": {
+            "name": "নাম",
+            "branchManager": "ব্রাঞ্চ ম্যানেজার",
+            "branchCode": "ব্রাঞ্চ কোড",
+            "phoneNumber": "ফোন নম্বর",
+            "searchBranches": "ব্রাঞ্চ অনুসন্ধান"
+        },
+        "header": {
+            "add": "নতুন ব্রাঞ্চ",
+            "edit": "এডিট ব্রাঞ্চ",
+            "branchDetails": "ব্রাঞ্চ ডিটেইলস"
+        }
+    },
+    "employee": {
+        "label": {
+            "name": "নাম",
+            "fullName": "পুরো নাম",
+            "firstName": "নামের প্রথম অংশ",
+            "lastName": "নামের শেষ অংশ",
+            "email": "ইমেইল",
+            "staffId": "কর্মচারীর আইডি",
+            "socialSecurityNumber": "সামাজিক নিরাপত্তা নম্বর",
+            "mobileNumber": "মোবাইল নম্বর",
+            "dateOfBirth": "জন্ম তারিখ",
+            "bloodGroup": "রক্তের গ্রুপ",
+            "gender": "লিঙ্গ",
+            "maritalStatus": "বৈবাহিক অবস্থা",
+            "status": "স্ট্যাটাস",
+            "userName": "ব্যবহারকারীর নাম",
+            "country": "দেশ",
+            "permanentAddress": "স্থায়ী ঠিকানা",
+            "address": "ঠিকানা",
+            "presentAddress": "বর্তমান ঠিকানা",
+            "emergencyContact": {
+                "title": "জরুরী যোগাযোগ",
+                "name": "নাম",
+                "relation": "সম্পর্ক",
+                "number": "নম্বর"
+            },
+            "jobTitle": "কাজের শিরোনাম",
+            "jobPosition": "চাকুরীর পদসমূহ",
+            "joiningDate": "যোগদানের তারিখ",
+            "approver": "অনুমোদনকারী",
+            "departmentName": "ডিপার্টমেন্টের নাম",
+            "branchName": "ব্রাঞ্চের নাম",
+            "manager": "ম্যানেজার",
+            "leaveManager": "লিভ ম্যানেজার",
+            "salary": "বেতন",
+            "hourlyRate": "ঘণ্টাপ্রতি রেট",
+            "hourLimitWeekly": "সাপ্তাহিক ঘন্টা লিমিট",
+            "overtimeRate": "ওভারটাইম রেট",
+            "overtimeLimit": "ওভারটাইম লিমিট",
+            "workPermit": "ওয়ার্ক পারমিট",
+            "passportNumber": "পাসপোর্ট নম্বর",
+            "visaNumber": "ভিসা নম্বর",
+            "visaExpiryDate": "ভিসার মেয়াদ শেষ হওয়ার তারিখ",
+            "workPermitNumber": "ওয়ার্ক পারমিট নম্বর",
+            "workPermitExpirationDate": "ওয়ার্ক পারমিটের মেয়াদ শেষ হওয়ার তারিখ",
+            "others": "অন্যান্য",
+            "linkedinProfile": "লিঙ্কডিন প্রোফাইল",
+            "eTinNumber": "ই-টিন নম্বর",
+            "nfcCard": "এন.এফ.সি কার্ড",
+            "geoFencing": "জিও ফেন্সিং",
+            "photoTaking": "ফটো তোলা",
+            "visaInformation": "ভিসার তথ্য",
+            "workPermitInformation": "ওয়ার্ক পারমিটের তথ্য",
+            "departureInformation": "চলে যাওয়ার তথ্য",
+            "departureReason": "চলে যাওয়ার কারণ",
+            "departureDescription": "চলে যাওয়ার বিবরণ",
+            "departureDate": "চলে যাওয়ার তারিখ"
+        },
+        "placeholder": {
+            "firstName": "নামের প্রথম অংশ",
+            "lastName": "নামের শেষ অংশ",
+            "email": "ইমেইল",
+            "staffId": "কর্মচারীর আইডি",
+            "socialSecurityNumber": "সামাজিক নিরাপত্তা নম্বর",
+            "mobileNumber": "মোবাইল নম্বর",
+            "dateOfBirth": "জন্ম তারিখ",
+            "bloodGroup": "রক্তের গ্রুপ",
+            "gender": "লিঙ্গ",
+            "maritalStatus": "বৈবাহিক অবস্থা",
+            "userName": "ব্যবহারকারীর নাম",
+            "country": "দেশ",
+            "address": "ঠিকানা",
+            "emergencyContact": {
+                "title": "জরুরী যোগাযোগ",
+                "name": "নাম",
+                "relation": "সম্পর্ক",
+                "number": "নম্বর"
+            },
+            "jobTitle": "কাজের শিরোনাম",
+            "jobPosition": "চাকুরীর পদসমূহ",
+            "joiningDate": "যোগদানের তারিখ",
+            "approver": "অনুমোদনকারী",
+            "departmentName": "ডিপার্টমেন্টের নাম",
+            "branchName": "ব্রাঞ্চের নাম",
+            "manager": "ম্যানেজার",
+            "leaveManager": "লিভ ম্যানেজার",
+            "salary": "বেতন",
+            "hourlyRate": "ঘণ্টাপ্রতি রেট",
+            "hourLimitWeekly": "সাপ্তাহিক ঘন্টা লিমিট",
+            "overtimeRate": "ওভারটাইম রেট",
+            "overtimeLimit": "ওভারটাইম লিমিট",
+            "workPermit": "ওয়ার্ক পারমিট",
+            "passportNumber": "পাসপোর্ট নম্বর",
+            "visaNumber": "ভিসা নম্বর",
+            "visaExpiryDate": "ভিসার মেয়াদ শেষ হওয়ার তারিখ",
+            "workPermitNumber": "ওয়ার্ক পারমিট নম্বর",
+            "workPermitExpirationDate": "ওয়ার্ক পারমিটের মেয়াদ শেষ হওয়ার তারিখ",
+            "linkedinProfile": "লিঙ্কডিন প্রোফাইল",
+            "eTinNumber": "ই-টিন নম্বর",
+            "departureReason": "চলে যাওয়ার কারণ",
+            "departureDescription": "চলে যাওয়ার বিবরণ",
+            "searchEmployees": "কর্মচারী অনুসন্ধান",
+            "searchAttendanceLogs": "উপস্থিতি লগ অনুসন্ধান"
+        },
+        "header": {
+            "add": "নতুন কর্মচারী",
+            "details": "ডিটেইলস",
+            "basicInfo": {
+                "title":  "মৌলিক তথ্য",
+                "description": "মৌলিক তথ্য",
+                "add": "কর্মচারীর নতুন মৌলিক তথ্য",
+                "edit": "কর্মচারীর মৌলিক তথ্য আপডেট"
+            },
+            "additionalInfo": {
+                "title":  "অতিরিক্ত তথ্য",
+                "description": "অতিরিক্ত তথ্য",
+                "edit": "কর্মচারীর অতিরিক্ত তথ্য আপডেট"
+            },
+            "workInfo": {
+                "title":  "কাজের তথ্য",
+                "description": "কাজের তথ্য",
+                "edit": "কর্মচারীর কাজের তথ্য আপডেট"
+            },
+            "attendance": {
+                "title":  "উপস্থিতি"
+            },
+            "attendanceLog": {
+                "title":  "উপস্থিতি লগ"
+            },
+            "departureInfo": {
+                "title":  "চলে যাওয়ার তথ্য",
+                "description": "কর্মচারীর চলে যাওয়ার তথ্য",
+                "employeeTermination": "কর্মচারীর পরিসমাপ্তি",
+                "departed": "কর্মচারী",
+                "terminate": "চলে যাওয়া",
+                "rejoin": "পুনরায় যোগদান"
+            }
+        }
+    },
+    "jobPosition": {
+        "label": {
+            "name": "নাম",
+            "slug": "স্লাগ",
+            "status": "স্ট্যাটাস"
+        },
+        "placeholder": {
+            "name": "নাম",
+            "searchJobPositions": "চাকুরীর পদসমূহ অনুসন্ধান"
+        },
+        "header": {
+            "add": "নতুন চাকুরীর পদ",
+            "edit": "এডিট চাকুরীর পদ"
+        }
+    },
+    "department": {
+        "label": {
+            "name": "নাম",
+            "slug": "স্লাগ",
+            "parentDepartment": "প্যারেন্ট ডিপার্টমেন্ট"
+        },
+        "placeholder": {
+            "name": "নাম",
+            "parentDepartment": "প্যারেন্ট ডিপার্টমেন্ট",
+            "searchDepartments": "ডিপার্টমেন্টসমূহ অনুসন্ধান"
+        },
+        "header": {
+            "add": "নতুন ডিপার্টমেন্ট",
+            "edit": "এডিট ডিপার্টমেন্ট",
+            "departmentDetails": "ডিপার্টমেন্টের ডিটেইলস"
+        }
+    },
+    "attendance": {
+        "label": {
+            "attendanceStatus" : "উপস্থিতির স্ট্যাটাস",
+            "attendanceDate": "উপস্থিতির তারিখ",
+            "checkIn": "চেক-ইন"
+        }
+    },
+    "attendanceLog": {
+        "label": {
+            "punchType": "পাঞ্চ টাইপ",
+            "punchTime": "পাঞ্চ টাইম",
+            "workLocation": "কর্মক্ষেত্র",
+            "note": "নোট"
+        },
+        "placeholder": {
+            "punchType": "পাঞ্চ টাইপ",
+            "workLocation": "কর্মক্ষেত্র",
+            "searchAttendanceLogs": "উপস্থিতি লগ অনুসন্ধান"
+        },
+        "header": {
+            "add": "নতুন উপস্থিতি লগ",
+            "edit": "এডিট উপস্থিতি লগ",
+            "addMissingPunch": "নতুন অনুপস্থিত উপস্থিতি"
+        }
+    },
+    "attendanceRequest": {
+        "label": {
+            "employee": "কর্মচারী",
+            "manager": "ম্যানেজার",
+            "attendanceDate":"উপস্থিতির তারিখ",
+            "checkIn": "চেক-ইন",
+            "checkOut": "চেক-আউট",
+            "status": "স্ট্যাটাস"
+        },
+        "placeholder": {
+            "searchAttendanceRequests": "অনুপস্থিত উপস্থিতির অনুরোধ অনুসন্ধান"
+        }
+    },
+    "loggedInEmployeeAttendance": {
+        "label": {
+            "currentDateTime": "বর্তমান সময়",
+            "punchType": "পাঞ্চ টাইপ",
+            "punchTime": "পাঞ্চ টাইম",
+            "workLocation": "কর্মক্ষেত্র",
+            "note": "নোট",
+            "checkOutTime": "চেক-আউট টাইম",
+            "checkInTime": "চেক-ইন টাইম",
+            "attendanceDate": "উপস্থিতির তারিখ",
+            "workedHours": "কর্মকাল",
+            "effectiveHours": "কার্যকরী সময়কাল",
+            "manager": "ম্যানেজার",
+            "status": "স্ট্যাটাস"
+        },
+        "placeholder": {
+            "punchType": "পাঞ্চ টাইপ",
+            "workLocation": "কর্মক্ষেত্র",
+            "note": "নোট",
+            "searchAttendances": "উপস্থিতি অনুসন্ধান",
+            "searchAttendanceLogs": "উপস্থিতি লগ অনুসন্ধান",
+            "searchAttendanceRequests": "অনুপস্থিত উপস্থিতির অনুরোধ অনুসন্ধান"
+        },
+        "header": {
+            "attendanceLog": {
+                "title": "উপস্থিতি লগ",
+                "addAttendance": "নতুন উপস্থিতি",
+                "checkOut": "চেক আউট"
+            },
+            "attendance": {
+                "title": "উপস্থিতি"
+            },
+            "attendanceRequest": {
+                "title": "উপস্থিতির অনুরোধ",
+                "addMissingAttendance": "নতুন অনুপস্থিত উপস্থিতি"
+            }
+        }
+    },
+    "leave": {
+        "label": {
+            "name": "নাম",
+            "color": "রঙ",
+            "sequence": "সিকোয়েন্স",
+            "leaveValidationType": "ছুটির ভ্যালিডেশনের ধরণ",
+            "requestUnit": "রিকোয়েস্ট ইউনিট",
+            "status": "স্ট্যাটাস",
+            "leaveType": "ছুটির ধরণ",
+            "allocationMode": "বরাদ্দকৃত মোড",
+            "employee": "কর্মচারী",
+            "department": "ডিপার্টমেন্ট",
+            "allocationType": "বরাদ্দকৃত ধরণ",
+            "allocationDays": "বরাদ্দকৃত দিন",
+            "validityPeriod": "মেয়াদ",
+            "startDate": "শুরুর তারিখ",
+            "endDate": "শেষ তারিখ",
+            "note": "নোট"
+        },
+        "placeholder": {
+            "name": "নাম",
+            "color": "রঙ",
+            "sequence": "সিকোয়েন্স",
+            "leaveValidationType": "ছুটির ভ্যালিডেশনের ধরণ",
+            "requestUnit": "রিকোয়েস্ট ইউনিট",
+            "leaveType": "ছুটির ধরণ",
+            "employee": "কর্মচারী",
+            "department": "ডিপার্টমেন্ট",
+            "allocationDays": "বরাদ্দকৃত দিন",
+            "note": "নোট",
+            "searchLeaveTypes": "ছুটির ধরণ অনুসন্ধান"
+        },
+        "header": {
+            "leaveType": {
+                "add": "নতুন ছুটির ধরণ",
+                "edit": "এডিট ছুটির ধরণ",
+                "details": "ডিটেইলস",
+                "leaveTypeInfo": {
+                    "title":  "ছুটির ধরণের তথ্য",
+                    "description": "ছুটির ধরণের তথ্য",
+                    "add": "নতুন ছুটির ধরণ",
+                    "edit": "ছুটির ধরণের তথ্য আপডেট"
+                },
+                "leaveTypeAllocationInfo": {
+                    "title":  "বরাদ্দকৃত ছুটির ধরণের তথ্য",
+                    "description": "বরাদ্দকৃত ছুটির ধরণের তথ্য",
+                    "add": "নতুন বরাদ্দকৃত ছুটির ধরণ",
+                    "edit": "বরাদ্দকৃত ছুটির ধরণের তথ্য আপডেট"
+                }
+            }
+        }
+    },
+    "subscription": {
+        "label": {
+            "billTo": "বিল",
+            "customerName": "ক্রেতার নাম",
+            "address": "ঠিকানা",
+            "phone": "ফোন",
+            "subscriptionPlan": "সাবস্ক্রিপশন প্ল্যান",
+            "subscriptionFees": "সাবস্ক্রিপশন ফি",
+            "billingMethod": "বিলিং পদ্ধতি",
+            "currency": "মুদ্রা",
+            "subscriptionID": "সাবস্ক্রিপশন আইডি",
+            "started": "শুরু",
+            "status": "স্ট্যাটাস",
+            "ended": "শেষ",
+            "trialStarted": "ট্রায়াল শুরু",
+            "trialEnded": "ট্রায়াল শেষ",
+            "trial": "ট্রায়াল স্ট্যাটাস",
+            "planName": "প্ল্যানের নাম",
+            "startDate": "শুরুর তারিখ",
+            "endDate": "শেষ তারিখ",
+            "finalPrice": "সর্বমোট মূল্য",
+            "monthly": "মাসিক",
+            "annual": "বার্ষিক"
+        },
+        "placeholder": {
+            "searchSubscriptionHistory": "সাবস্ক্রিপশন হিস্ট্রি অনুসন্ধান"
+        },
+        "header": {
+            "billingAddress": "বিলিং অ্যাড্রেস",
+            "currentSubscription": "বর্তমান সাবস্ক্রিপশন",
+            "subscriptionPlanDetails": "সাবস্ক্রিপশন প্ল্যানের ডিটেইলস",
+            "subscriptionDetails": "সাবস্ক্রিপশন ডিটেইলস",
+            "customer": "ক্রেতা",
+            "subscriptionHistory": "সাবস্ক্রিপশন হিস্ট্রি",
+            "subscriptionPlan": "সাবস্ক্রিপশন প্ল্যান"
+        }
+    },
+    "commonComponents": {
+        "addressComponent": {
+            "label": {
+                "addressLineOne": "ঠিকানার প্রথম লাইন",
+                "addressLineTwo": "ঠিকানার দ্বিতীয় লাইন",
+                "floor": "তলা",
+                "city": "শহর",
+                "state": "প্রদেশ",
+                "zipCode": "পোষ্টকোড"
+            },
+            "placeholder": {
+                "addressLineOne": "ঠিকানার প্রথম লাইন",
+                "addressLineTwo": "ঠিকানার দ্বিতীয় লাইন",
+                "floor": "তলা",
+                "city": "শহর",
+                "state": "প্রদেশ",
+                "zipCode": "পোষ্টকোড"
+            }
+        },
+        "employeeComponent": {
+            "label" : {
+                "name": "নাম",
+                "employeeId": "কর্মচারীদের আইডি",
+                "jobTitle": "কাজের শিরোনাম",
+                "status": "স্ট্যাটাস",
+                "joiningDate": "যোগদান তারিখ",
+                "lastLogin": "শেষ লগইন"
+            },
+            "placeholder": {
+                "searchEmployees": "কর্মচারীদের অনুসন্ধান"
+            },
+            "header": {
+                "employeeList": "কর্মচারীদের তালিকা"
+            }
+        }
+    },
+    "buttonValue": {
+        "submit": "সাবমিট",
+        "update": "আপডেট",
+        "filter": "ফিল্টার",
+        "reset": "রিসেট",
+        "apply": "অ্যাপ্লাই",
+        "edit": "এডিট",
+        "login": "লগইন",
+        "logout": "লগআউট",
+        "discard": "বাতিল",
+        "actions": "অ্যাকশন",
+        "confirm": "কনফার্ম",
+        "cancel": "বাতিল",
+        "signIn": "সাইন ইন",
+        "signOut": "সাইন আউট",
+        "resetPassword": "রিসেট পাসওয়ার্ড",
+        "forgotPassword": "পাসওয়ার্ড ভুলে গেছেন",
+        "resendVerificationEmail": "পুনরায় ভেরিফিকেশন ইমেইল পাঠান",
+        "renewSubscription": "রিনিউ সাবসক্রিপশন",
+        "changePlan": "প্ল্যান পরিবর্তন",
+        "select": "সিলেক্ট"
+    },
+    "filterOptions": {
+        "title": "ফিল্টার অপশন",
+        "subtitle": "ফিল্টার অপশন",
+        "user": {
+            "subtitle": {
+                "label": {
+                    "role": "রোল",
+                    "status": "স্ট্যাটাস"
+                },
+                "placeholder": {
+                    "role": "রোল",
+                    "status": "স্ট্যাটাস"
+                }
+            }
+        },
+        "employee": {
+            "subtitle": {
+                "label": {
+                    "department": "ডিপার্টমেন্ট",
+                    "jobPosition": "চাকুরীর পদসমূহ",
+                    "branch": "ব্রাঞ্চ",
+                    "status": "স্ট্যাটাস"
+                },
+                "placeholder": {
+                    "department": "ডিপার্টমেন্ট",
+                    "jobPosition": "চাকুরীর পদসমূহ",
+                    "branch": "ব্রাঞ্চ",
+                    "status": "স্ট্যাটাস"
+                }
+            }
+        },
+        "attendanceRequest": {
+            "subtitle": {
+                "label": {
+                    "status": "স্ট্যাটাস"
+                },
+                "placeholder": {
+                    "status": "স্ট্যাটাস"
+                }
+            }
+        },
+        "loggedInEmployeeAttendance": {
+            "subtitle": {
+                "label": {
+                    "status": "স্ট্যাটাস"
+                },
+                "placeholder": {
+                    "status": "স্ট্যাটাস"
+                }
+            }
+        }
+    },
+    "confirmation": {
+        "changeStatus": "আপনি কি নিশ্চিতভাবে স্ট্যাটাস পরিবর্তন করতে চান",
+        "remove": {
+            "account": "আপনি কি নিশ্চিতভাবে আপনার অ্যাকাউন্ট মুছে ফেলতে চান?",
+            "others": "আপনি কি নিশ্চিতভাবে তথ্য মুছে ফেলতে চান"
+        },
+        "wait": "অপেক্ষা করুন...",
+        "permissionDenied": "পারমিশন দেওয়া যায়নি",
+        "successfulLogin": "আপনি সফলভাবে লগ ইন করেছেন",
+        "gotIt": "ঠিক আছে",
+        "checkout": {
+            "forget": "আপনি চেকআউট করতে ভুলে গেছেন ",
+            "date": "তারিখে",
+            "continue": "চালিয়ে যেতে প্রথমে চেক আউট করুন"
+        },
+        "approve": {
+            "main": "আপনি কি",
+            "sub": "- এর উপস্থিতির অনুরোধ অনুমোদন করতে চান"
+        },
+        "decline": {
+            "main": "আপনি কি",
+            "sub": "- এর উপস্থিতির অনুরোধ প্রত্যাখ্যান করতে চান"
+        }
+    },
+    "dataTable": {
+        "numbers": {
+            "first": "১০",
+            "second": "২৫",
+            "third": "৫০"
+        },
+        "notFound": "কোন তথ্য পাওয়া যায়নি"
+    },
+    "tooltip": {
+        "title": {
+            "view": "দেখুন",
+            "edit": "এডিট",
+            "editDetails": "এডিট ডিটেইলস",
+            "delete": "মুছুন",
+            "changeStatus": "স্ট্যাটাস পরিবর্তন"
+        }
+    },
+    "auth": {
+        "login": {
+            "title": "সাইন ইন",
+            "forgotPassword": "পাসওয়ার্ড ভুলে গেছেন"
+        },
+        "signUpConfirmation": {
+            "title": "স্বাগত",
+            "description": "আপনি সফলভাবে আপনার অ্যাকাউন্ট সক্রিয় করেছেন। দয়া করে লগইন করুন"
+        },
+        "forgotPassword": {
+            "title": "পাসওয়ার্ড ভুলে গেছেন",
+            "description": "আপনার পাসওয়ার্ড রিসেট করতে আপনার ইমেইল লিখুন।",
+            "label": {
+                "email": "ইমেইল"
+            },
+            "placeholder": {
+                "email": "ইমেইল"
+            }
+        },
+        "resetPassword": {
+            "title": "রিসেট পাসওয়ার্ড",
+            "description": "আপনার পাসওয়ার্ড পুনরায় সেট করতে আপনার নতুন পাসওয়ার্ড লিখুন।",
+            "label": {
+                "email": "ইমেইল",
+                "newPassword": "নতুন পাসওয়ার্ড",
+                "confirmNewPassword": "নতুন পাসওয়ার্ড নিশ্চিত করুন"
+            },
+            "placeholder": {
+                "email": "ইমেইল",
+                "newPassword": "নতুন পাসওয়ার্ড",
+                "confirmNewPassword": "নতুন পাসওয়ার্ড নিশ্চিত করুন"
+            }
+        },
+        "verifyEmail": {
+            "title": "ইমেইল ভেরিফিকেশন",
+            "message": "সাইন আপ করার জন্য ধন্যবাদ! শুরু করার আগে, আমরা এইমাত্র আপনাকে যে লিঙ্কটি ইমেইল করেছি তাতে ক্লিক করে আপনি কি আপনার ইমেইল ঠিকানা যাচাই করতে পারেন? আপনি যদি ইমেইলটি না পেয়ে থাকেন, তাহলে ইমেইলটি পেতে অনুগ্রহ করে পুনরায় ভেরিফিকেশন ইমেইল পাঠান বাটনে ক্লিক করুন।",
+            "linkSent": "রেজিষ্ট্রেশনের সময় আপনার দেওয়া ইমেইল অ্যাড্রেসে একটি নতুন ভেরিফিকেশন লিঙ্ক পাঠানো হয়েছে।"
+        }
+    },
+    "links": {
+        "footer": {
+            "terms": "শর্তাবলী",
+            "plans": "পরিকল্পনা",
+            "contactUs": "যোগাযোগ"
+        }
+    },
+    "themeMode": {
+        "light": "লাইট",
+        "dark": "ডার্ক",
+        "system": "সিস্টেম"
+    },
+    "sidebarMenu": {
+        "dashboard": "ড্যাশবোর্ড",
+        "section": {
+            "admin": "অ্যাডমিন",
+            "hr": "এইচআর",
+            "employee": "কর্মচারী"
+        },
+        "configuration": {
+            "menu": "সেটিংস"
+        },
+        "userManagement": {
+            "menu": "ইউজার ম্যানেজমেন্ট",
+            "submenu": {
+                "roles": "রোল",
+                "users": "ইউজার"
+            }
+        },
+        "branch": {
+            "menu": "ব্রাঞ্চ",
+            "submenu": "ব্রাঞ্চের তালিকা"
+        },
+        "employee": {
+            "menu": "কর্মচারী",
+            "submenu": {
+                "jobPosition": "চাকুরীর পদসমূহ",
+                "employee": "কর্মচারীদের তালিকা"
+            }
+        },
+        "department": {
+            "menu": "ডিপার্টমেন্ট",
+            "submenu": "ডিপার্টমেন্টের তালিকা"
+        },
+        "leave": {
+            "menu": {
+                "admin": "ছুটির ম্যানেজমেন্ট",
+                "employee": "ছুটি"
+            },
+            "submenu": {
+                "leaveType": "ছুটির ধরণ",
+                "leaveApplication": "ছুটির আবেদন",
+                "pendingLeaveApplication": "অমীমাংসিত ছুটির আবেদন"
+            }
+        },
+        "leaveRequests": {
+            "menu": "ছুটির অনুরোধ"
+        },
+        "attendanceRequests": {
+            "menu": "উপস্থিতির অনুরোধ"
+        },
+        "employeeAttendance": {
+            "menu": "উপস্থিতি"
+        },
+        "subscription": {
+            "menu": "সাবস্ক্রিপশন"
+        }
+    }
+}
