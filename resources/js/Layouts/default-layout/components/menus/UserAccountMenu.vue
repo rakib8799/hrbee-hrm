@@ -46,7 +46,9 @@
 
     <!--begin::Menu item-->
     <div class="menu-item px-5">
-      <Link :href="''" @click="signOut()" class="menu-link px-5"> {{ $t('buttonValue.signOut') }} </Link>
+        <Link href="/logout" method="post" as="button" class="menu-link btn px-5">
+            {{ $t('buttonValue.signOut') }}
+        </Link>
     </div>
     <!--end::Menu item-->
   </div>
