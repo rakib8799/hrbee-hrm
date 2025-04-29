@@ -50,7 +50,7 @@ return Application::configure(basePath: dirname(__DIR__))
             'role.isEmployee' => IsRoleEmployee::class,
             'leaveAllocation.editable' => CheckIsLeaveAllocationEditable::class
         ]);
-    //    $middleware->append(TenantMiddleware::class);
+        $middleware->append(TenantMiddleware::class);
     })
     ->withExceptions(function (Exceptions $exceptions) {
         Integration::handles($exceptions);
