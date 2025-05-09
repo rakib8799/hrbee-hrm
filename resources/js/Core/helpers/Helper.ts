@@ -37,7 +37,7 @@ export const getLogoSrc = (logo: any) => {
     if(logoPath) {
       return logoPath;
     } else {
-      return 'media/logos/hrbee-logo-sidebar.svg';
+      return 'media/logos/mkr-logo.png';
     }
 }
 

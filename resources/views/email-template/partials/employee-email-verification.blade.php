@@ -41,13 +41,13 @@
 {{-- <tr>
     <td align="center" valign="center" style="text-align:center; padding-bottom: 20px;">
         <a href="#" style="margin-right:10px">
-            <img alt="Logo" style="height: 50px;" src="{{ asset('media/logos/hrbee-logo.png') }}" />
+            <img alt="Logo" style="height: 50px;" src="{{ asset('media/logos/mkr-logo.png') }}" />
         </a>
     </td>
 </tr> --}}
 <tr>
     <td align="center" valign="center" style="font-size: 13px; padding:0 15px; text-align:center; font-weight: 500; color: #A1A5B7;font-family:Arial,Helvetica,sans-serif; padding-top: 20px;">
-        <img alt="Logo" style="height: 30px;" src="{{ asset('media/logos/hrbee-logo.png') }}" />
+        <img alt="Logo" style="height: 30px;" src="{{ asset('media/logos/mkr-logo.png') }}" />
         <p>&copy; {{ now()->year }} hr bee</p>
         <p><a href="https://hrbee.mkrdev.xyz" rel="noopener" target="_blank" style="font-weight: 600;font-family:Arial,Helvetica,sans-serif">Unsubscribe</a>&nbsp;</p>
     </td>

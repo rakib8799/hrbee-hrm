@@ -6,7 +6,7 @@
             <!--begin:Logo-->
             <div class="mb-11">
                 <Link href="/" rel="noopener" target="_blank">
-                    <img alt="Logo" :src="getAssetPath('media/logos/hrbee-logo.svg')" class="h-60px h-lg-75px">
+                    <img alt="Logo" :src="getAssetPath('media/logos/mkr-logo.png')" class="h-60px h-lg-75px">
                 </Link>
             </div>
             <!--end:Logo-->

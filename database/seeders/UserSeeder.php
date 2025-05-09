@@ -20,7 +20,7 @@ class UserSeeder extends Seeder
         DB::table('users')->truncate();
         $user = User::factory()->create([
             'name' => Constants::ROLE_ADMIN,
-            'email' => 'admin@nonditosoft.com',
+            'email' => 'admin@gmail.com',
             'password' => Hash::make('12345'),
         ]);
         $user->assignRole(Constants::ROLE_SUPER_ADMIN);

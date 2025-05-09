@@ -42,8 +42,7 @@
                                 @submit="onSubmitLogin">
                                 <!--begin::Heading-->
                                 <div class="text-center">
-                                    <img alt="Logo" src="media/logos/hrbee-logo.svg"
-                                        class="h-60px h-lg-75px mb-11"/>
+                                    <img alt="Logo" src="media/logos/mkr-logo.png" style="height: 25vh;"/>
                                     <h1 class="text-gray-900 fw-bolder mb-3">{{ $t('auth.login.title') }}</h1>
                                 </div>
                                 <!--begin::Heading-->
@@ -127,8 +126,8 @@ const props = defineProps({
 });
 
 const formData = useForm({
-    email: '',
-    password: ''
+    email: 'admin@gmail.com',
+    password: '12345'
 });
 
 const onSubmitLogin = async () => {
